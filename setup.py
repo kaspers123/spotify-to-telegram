@@ -55,7 +55,7 @@ print(_("Please enter the following details"))
 client_id = input(_("Enter Client ID: "))  # developer.spotify.com/dashboard
 client_secret = input(_("Enter Client Secret: "))  # developer.spotify.com/dashboard
 username = input(_("Enter username: "))
-redirect_uri = "http://localhost:8888/callback"  # Don't touch
+redirect_uri = "http://127.0.0.1:8888/callback"  # Don't touch
 scope = "user-read-currently-playing"
 print(_("Setup completed!"))
 
