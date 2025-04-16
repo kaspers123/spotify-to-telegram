@@ -25,5 +25,5 @@ nowplay_message = Template(
 client_id = ""
 client_secret = ""
 username = ""
-redirect_uri = "http://localhost:8888/callback"
+redirect_uri = "http://127.0.0.1:8888/callback"
 scope = "user-read-currently-playing"
